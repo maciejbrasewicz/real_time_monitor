@@ -112,8 +112,8 @@ sudo apt install make
 echo 'Clone git repo to EC2'
 cd /home/ubuntu && git clone https://github.com/maciejbrasewicz/real_time_monitor.git
 
-echo 'CD to bitcoinMonitor directory'
-cd bitcoinMonitor
+echo 'CD to real_time_monitor directory'
+cd real_time_monitor
 
 echo 'Start containers'
 make up
