@@ -41,7 +41,7 @@ If you are going to use a different [EC2 instance type](https://aws.amazon.com/f
 > **Note:**  when asked which purchasing option is right for me? I will answer in one of my blog posts. There is always a "better option"
 4. -   **[main.tf](https://github.com/maciejbrasewicz/real_time_monitor/blob/main/terraform/main.tf)**: make sure `Clone git repo to EC2` param is customized for your needs (line 112).
 
-**[this file](https://github.com/maciejbrasewicz/real_time_monitor/blob/main/terraform/main.tf)** defines all the services we need. In our [main.tf](https://github.com/josephmachado/data_engineering_project_template/blob/main/terraform/main.tf), we create an EC2 instance, security group where we configure access and a cost alert. For instance, the security group for access to EC2: 
+**[this file](https://github.com/maciejbrasewicz/real_time_monitor/blob/main/terraform/main.tf)** defines all the services we need. In our main.tf, we create an EC2 instance, security group where we configure access and a cost alert. For instance, the security group for access to EC2: 
 
 ```shell
 # Create security group for access to EC2 from your Anywhere
